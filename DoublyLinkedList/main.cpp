@@ -20,7 +20,6 @@ int main(){
 
 // Testing
 
-    cout << List1.getHead() << endl;
-
     List1.printList();
+
 }
