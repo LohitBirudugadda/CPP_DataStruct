@@ -5,7 +5,7 @@ using namespace std;
 
 int main(){
 
-// --- Create a small Linked List ---
+// --- Create a small Doubly Linked List ---
     DoublyLinkedList List1(1);
     List1.append(2);
     List1.append(3);
