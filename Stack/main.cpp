@@ -5,6 +5,10 @@ using namespace std;
 
 int main(){
 
+/*
+* Stacks are LIFO (Last In First Out)
+*/
+
 // --- Create a small Stack ---
     Stack Stack1(1);
     Stack1.push(2);
