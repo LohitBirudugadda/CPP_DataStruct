@@ -4,6 +4,7 @@ using namespace std;
 
 class Node { 
     public: 
+    
         int value;
         Node* next;
         Node* prev;
@@ -17,6 +18,7 @@ class Node {
 
 class DoublyLinkedList {
     private:
+
         Node* head;
         Node* tail;
         int length;
