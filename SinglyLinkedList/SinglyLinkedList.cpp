@@ -4,17 +4,10 @@ using namespace std;
 
 class Node { 
     public:
+
         int value;
         Node* next;
 
-        /*
-        * Function: Node
-        * Description: Constructor that initializes a new node with the given value and sets its next pointer to nullptr.
-        * Parameters:
-        *    int value - The value to store in the node.
-        * Returns:
-        *    None (constructor)
-        */
         Node(int value) {
             this->value = value;
             next = nullptr;
@@ -23,6 +16,7 @@ class Node {
 
 class SinglyLinkedList {
     private:
+
         Node* head;
         Node* tail;
         int length;
